@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+    <title>Brasil Tour- São Paulo</title>
+    <meta name="viewport" content="Informações sobre São Paulo">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet" id="bootstrap-css">
+	<link href="../css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">  	
+    <style type="text/css">
+	#thumbnail-preview-indicators {
+	  position: relative;
+	  overflow: hidden;
+	}
+	#thumbnail-preview-indicators .slides .slide-1, 
+	#thumbnail-preview-indicators .slides .slide-2,
+	#thumbnail-preview-indicators .slides .slide-3 {
+	  background-size: cover;
+	  background-position: center center;
+	  background-repeat: no-repeat;
+	}
+		#thumbnail-preview-indicators,
+		#thumbnail-preview-indicators .slides,
+		#thumbnail-preview-indicators .slides .slide-1, 
+		#thumbnail-preview-indicators .slides .slide-2,
+		#thumbnail-preview-indicators .slides .slide-3 {
+		  height: 480px;
+		}
+	#thumbnail-preview-indicators .slides .slide-1 {
+	  background-image: url(img/index1.jpg); 
+	}
+	#thumbnail-preview-indicators .slides .slide-2 {
+	  background-image: url(img/index2.jpg);
+	}
+	#thumbnail-preview-indicators .slides .slide-3 {
+	  background-image: url(img/index3.JPG);
+	}
+	#thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
+	  top: 20%;
+	  bottom: inherit;
+	}
+	#thumbnail-preview-indicators .carousel-indicators li,
+	#thumbnail-preview-indicators .carousel-indicators li.active {
+	  position: relative;
+	  width: 100px;
+	  height: 8px;  
+	}
+	#thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
+	  position: absolute;
+	  top: 0;
+	  width: 100px;
+	  display: none;
+	  opacity: 0;
+	  left: 50%;
+	  margin-top: -80px;
+	  margin-left: -50px;
+	}
+	#thumbnail-preview-indicators .carousel-indicators li:hover > .thumbnail,
+	#thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail {
+	  display: block;
+	  opacity: .8;
+	}
+	#thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail:hover{
+	  opacity: 1;
+	}
+	@media screen and (max-width : 480px) {    
+		#thumbnail-preview-indicators .carousel-indicators li,
+		#thumbnail-preview-indicators .carousel-indicators li.active {
+		  width: 50px;
+		  height: 8px;
+		  position: relative;
+		}
+		#thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
+		   width: 50px;
+		   left: 50%;
+		   margin-top: -50px;
+		   margin-left: -25px;
+		}
+	}
+    </style>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="../02-index/index.html">Brasil Tour</a>
+				</div>
+			
+				
+				<div class="collapse navbar-collapse js-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="dropdown mega-dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><font color="#68d415">Saiba mais</font><span class="glyphicon glyphicon-chevron-down pull-right"></span></a>	
+							<ul class="dropdown-menu mega-dropdown-menu row"> 								
+								<li class="col-sm-3">
+									<ul>
+										<li class="dropdown-header">Estado Popular</li>   
+												<a href="../28-saoPaulo/saoPaulo.html"><img src="../img/saoPaulo.jpg" class="img-responsive" alt="product 1"></a>
+												<h4><small>São Paulo</small></h4>                                        
+												<a href="../28-saoPaulo/saoPaulo.html"><button class="btn btn-primary" type="button">Saiba mais</button></a> <a href="../28-saoPaulo/saoPauloOpinioes.html"><button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-comment"></span> Comente</button></a>       
+											
+										<li class="divider"></li>
+										<li><a href="../02-index/todos.html">Todos os estados<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+									</ul>
+								</li>
+								<li class="col-sm-3">
+									<ul>
+										<li class="dropdown-header">Região Nordeste</li>
+										<li><a href="../04-maranhao/maranhao.html">Maranhão</a></li>
+										<li><a href="../05-piaui/piaui.html">Piauí</a></li>
+										<li><a href="../06-ceara/ceara.html">Ceará</a></li>
+										<li><a href="../07-rioGrandeNorte/rioGrandeNorte.html">Rio Grande do Norte </a></li>
+										<li><a href="../09-pernambuco/pernambuco.html">Pernambuco</a></li>
+										<li><a href="../10-paraiba/paraiba.html">Paraíba</a></li>
+										<li><a href="../11-sergipe/sergipe.html">Sergipe</a></li>
+										<li><a href="../12-alagoas/alagoas.html">Alagoas</a></li>
+										<li><a href="../13-bahia/bahia.html">Bahia</a></li>
+										
+										<li class="divider"></li>
+										<li class="dropdown-header">Região Sul</li>
+										<li><a href="../14-parana/parana.html">Paraná</a></li>
+										<li><a href="../15-santaCatarina/santaCatarina.html">Santa Catarina</a></li>
+										<li><a href="../16-rioGrandeSul/rioGrandeSul.html">Rio Grande do Sul </a></li>
+																		
+										
+									</ul>
+								</li>
+								<li class="col-sm-3">
+									<ul>										
+										<li class="dropdown-header">Região Norte</li>
+										<li><a href="../17-acre/acre.html">Acre</a></li>
+										<li><a href="../18-amazonas/amazonas.html">Amazonas</a></li>
+										<li><a href="../19-roraima/roraima.html">Roraima</a></li>
+										<li><a href="../20-para/para.html">Pará</a></li>										
+										<li><a href="../21-amapa/amapa.html">Amapá</a></li>
+										<li><a href="../22-tocantins/tocantins.html">Tocantins</a></li>
+										<li><a href="../23-rondonia/rondonia.html">Rondônia</a></li>
+										<li class="divider"></li>
+										<li class="dropdown-header">Região Centro-Oeste</li>
+										<li><a href="../24-matoGrosso/matoGrosso.html">Mato Grosso</a></li>
+										<li><a href="../25-matoGrossoSul/matoGrossoSul.html">Mato Grosso do Sul</a></li>	
+										<li><a href="../26-goias/goias.html">Goiás</a></li>									
+										<li><a href="../27-brasilia/brasilia.html">Brasília</a></li>
+									</ul>
+								</li>	
+								<li class="col-sm-3">
+									<ul>
+									
+										<li class="dropdown-header">Região Sudeste</li>
+										<li><a href="../28-saoPaulo/saoPaulo.html">São Paulo</a></li>
+										<li><a href="../29-rioJaneiro/rioJaneiro.html">Rio de Janeiro</a></li>
+										<li><a href="../30-minasGerais/minasGerais.html">Minas Gerais</a></li>
+										<li><a href="../31-espiritoSanto/espiritoSanto.html">Espírito Santo</a></li>			
+										<li class="divider"></li>
+										<li class="dropdown-header">Sobre</li>
+										<li><a href="../03-sobre/equipe.html"><b>Brasil Tour</b></a></li>
+										<li><a href="../03-sobre/contato.html">Contato</a></li>
+									</ul>
+								</li>
+							</ul>	
+						</li>
+					</ul>
+				</div><!-- /.nav-collapse -->
+			</nav>
+		</div>
+	</header>
+	
+	<section class="conteudo">
+		<div class="container"> 
+			<br><br>
+			<div class="col-sm-11">
+             	<div id="thumbnail-preview-indicators" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#thumbnail-preview-indicators" data-slide-to="0" class="active">
+                          <div class="thumbnail">
+                            <img class="img-responsive" src="img/index1.jpg">
+                          </div>
+                        </li>
+                        <li data-target="#thumbnail-preview-indicators" data-slide-to="1">
+                        <div class="thumbnail">
+                            <img class="img-responsive" src="img/index2.jpg">
+                          </div>
+                        </li>
+                        <li data-target="#thumbnail-preview-indicators" data-slide-to="2">
+                        <div class="thumbnail">
+                            <img class="img-responsive"src="img/index3.JPG">
+                          </div>
+                        </li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="item slides active">
+                          <div class="slide-1"></div>
+                          <div class="container">
+                            <div class="carousel-caption">
+                              <h1>Bem-vindo ao Brasil Tour</h1>						  
+							  <p><a class="btn btn-lg btn-default" href="todos.html" role="button">Saiba mais</a></p>                              
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item slides">
+                          <div class="slide-2"></div>
+                          <div class="container">
+                            <div class="carousel-caption">
+								<h1>A equipe Brasil Tour<br> agradece a sua visita<h1>
+                              <p><a class="btn btn-lg btn-default" href="../03-sobre/equipe.html" role="button">Equipe Brasil Tour</a></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item slides">
+                          <div class="slide-3"></div>
+                          <div class="container">
+                            <div class="carousel-caption">                              
+                              <h1>Não esqueça de nos contar o que você achou do site</h1>
+                              <p><a class="btn btn-lg btn-default" href="../03-sobre/contato.html" role="button">Comente Aqui</a></p>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="left carousel-control" href="#thumbnail-preview-indicators" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                      <a class="right carousel-control" href="#thumbnail-preview-indicators" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                  </div>   
+			</div>
+			<div class="col-sm-4">
+			
+			<br><br>
+			</div>
+		</div>
+	</section>
+	
+	<footer class="rodape">
+		<div class="container">
+		<nav class="navbar navbar-default" role="navigation">	
+			<div class="rodapeDireito">
+				<h3>Brasil Tour</h3>     
+				<h4><small>Produzido por <a href="../03-sobre/equipe.html"><b> <font color="#68d415">Equipe Brasil Tour</font></b></a></small></h4>
+			</div>
+		</nav>
+		</div>
+	</footer>
+
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>	
+    <script src="../js/bootstrap.min.js"></script>
+	<script>
+		$(function() {
+		$('.required-icon').tooltip({
+			placement: 'left',
+			title: 'Campo obrigatório'
+			});
+		});
+		
+		window.onload = function () {
+			$.getJSON('../arquivo.json', function(data){
+				if(data.estado=="saoPaulo"){
+					var conteudo = '<br><hr><strong>Nome:</strong> ' + data.nome + '<br/><strong>Comentário:</strong> ' + data.comentario;
+					$("#content").html(conteudo);
+				}
+			});	
+		}
+		
+		$(function(){
+			$("button").click(function(){				
+				var nome = document.getElementById('nome').value;
+				var email = document.getElementById('email').value;
+				var comentario = document.getElementById('comentario').value;
+				if((nome!=null)&&(nome!="")){
+					if((email!=null)&&(email!="")){
+						if((comentario!=null)&&(comentario!="")){
+							$('form').hide();
+							var enviado='<h5>Comentário enviado<h5>';
+							$("#feedback").html(enviado);
+						}
+					}								
+				}
+			});
+		});
+
+	</script>
+</body>
+</html>
