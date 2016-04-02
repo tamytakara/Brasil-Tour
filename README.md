@@ -5,3 +5,4 @@ Disponível na pasta do Google Drive
 
 ## Membros
   Thales César Giriboni (brosquinha)
+  Tamy Takara Yatsu (tamytakara)
